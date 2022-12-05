@@ -1,11 +1,12 @@
 @import "../global";
 
-#Objects {
-  padding-top: 51px;
+#objects {
+  padding-top: 30px;
   font-family: "Montserrat";
   background: #e5e5e5;
   .objects__hero {
-    &__link {
+    padding-bottom: 63px;
+    .objects__hero__link {
       a {
         font-weight: 400;
         line-height: 15px;
@@ -16,17 +17,17 @@
         color: #898989;
       }
     }
-    &__title {
-      padding-top: 63px;
-      padding-bottom: 80px;
-      font-weight: 700;
-      font-size: 44px;
-      line-height: 141.69%;
-      color: #2d2d2d;
-    }
+  }
+  .objects__hero__title {
+    padding-bottom: 80px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 141.69%;
+    color: #2d2d2d;
   }
   .card {
     margin-bottom: 30px;
+
     background-color: #fff;
     .card-text {
       font-weight: 700;
@@ -35,29 +36,55 @@
       color: #2d2d2d;
     }
   }
-  .btn {
-    width: 219px;
-    height: 50px;
-    left: 690px;
-    top: 2405px;
-    border: 1px solid #fcb427;
-    a{
-        text-decoration: none;
-        color: black;
-    }
-    .btn:hover {
-      background-color: #fcb427;
-    }
+  // .card:hover {
+  //   box-shadow: 25px 25px 25px 25px #fcb427;
+  // }
+  .objects__hero__animation {
+    font-family: system-ui, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0 0.9em;
+    --c: #{invert(#fcb427)};
+    line-height: 1.2em;
+    background: linear-gradient(var(--c) 0 0),
+      conic-gradient(from -135deg at 100% 50%, var(--c) 90deg, #0000 0) 0
+        var(--p, 0%),
+      conic-gradient(from -135deg at 1.2em 50%, #0000 90deg, var(--c) 0) 100%
+        var(--p, 0%);
+    -webkit-background-clip: text, border-box, border-box;
+    background-size: 100%, var(--s, 0%) 200%, var(--s, 0%) 200%;
+    background-repeat: no-repeat;
+    background-blend-mode: difference, normal;
+    filter: Invert(1);
+    color: transparent;
+    transition: 0.4s ease-in, background-position 0s;
   }
+  .objects__hero__animation:hover {
+    --p: 100%;
+    --s: calc(50% + 0.61em);
+  }
+  // .btn {
+  //   width: 219px;
+  //   height: 50px;
+  //   left: 690px;
+  //   top: 2405px;
+  //   border: 1px solid #fcb427;
+  //   border-radius: 0;
+  //   a {
+  //     text-decoration: none;
+  //     color: black;
+  //   }
+  // }
+  // .btn:hover {
+  //   background-color: #fcb427;
+  // }
   .objects__subtitle {
     font-weight: 700;
     font-size: 40px;
     line-height: 141.69%;
-    /* identical to box height, or 57px */
-
     color: #000000;
   }
-  .objects__last__title{
+  .objects__last__title {
     padding-bottom: 120px;
   }
 }

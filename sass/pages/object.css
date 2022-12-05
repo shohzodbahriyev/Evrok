@@ -7,59 +7,66 @@
 /*shaftoli rang*/
 /*background color*/
 /*text color*/
-#Objects {
-  padding-top: 51px;
+#objects {
+  padding-top: 30px;
   font-family: "Montserrat";
   background: #e5e5e5;
 }
-#Objects .objects__hero__link a {
+#objects .objects__hero {
+  padding-bottom: 63px;
+}
+#objects .objects__hero .objects__hero__link a {
   font-weight: 400;
   line-height: 15px;
   color: #000000;
   text-decoration: none;
 }
-#Objects .objects__hero__link a:nth-child(2) {
+#objects .objects__hero .objects__hero__link a:nth-child(2) {
   color: #898989;
 }
-#Objects .objects__hero__title {
-  padding-top: 63px;
+#objects .objects__hero__title {
   padding-bottom: 80px;
   font-weight: 700;
   font-size: 44px;
   line-height: 141.69%;
   color: #2d2d2d;
 }
-#Objects .card {
+#objects .card {
   margin-bottom: 30px;
   background-color: #fff;
 }
-#Objects .card .card-text {
+#objects .card .card-text {
   font-weight: 700;
   font-size: 20px;
   line-height: 142.19%;
   color: #2d2d2d;
 }
-#Objects .btn {
-  width: 219px;
-  height: 50px;
-  left: 690px;
-  top: 2405px;
-  border: 1px solid #fcb427;
+#objects .objects__hero__animation {
+  font-family: system-ui, sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0 0.9em;
+  --c: #034bd8;
+  line-height: 1.2em;
+  background: linear-gradient(var(--c) 0 0), conic-gradient(from -135deg at 100% 50%, var(--c) 90deg, rgba(0, 0, 0, 0) 0) 0 var(--p, 0%), conic-gradient(from -135deg at 1.2em 50%, rgba(0, 0, 0, 0) 90deg, var(--c) 0) 100% var(--p, 0%);
+  -webkit-background-clip: text, border-box, border-box;
+  background-size: 100%, var(--s, 0%) 200%, var(--s, 0%) 200%;
+  background-repeat: no-repeat;
+  background-blend-mode: difference, normal;
+  filter: Invert(1);
+  color: transparent;
+  transition: 0.4s ease-in, background-position 0s;
 }
-#Objects .btn a {
-  text-decoration: none;
-  color: black;
+#objects .objects__hero__animation:hover {
+  --p: 100%;
+  --s: calc(50% + 0.61em);
 }
-#Objects .btn .btn:hover {
-  background-color: #fcb427;
-}
-#Objects .objects__subtitle {
+#objects .objects__subtitle {
   font-weight: 700;
   font-size: 40px;
   line-height: 141.69%;
-  /* identical to box height, or 57px */
   color: #000000;
 }
-#Objects .objects__last__title {
+#objects .objects__last__title {
   padding-bottom: 120px;
 }/*# sourceMappingURL=object.css.map */
