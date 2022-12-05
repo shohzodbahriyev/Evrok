@@ -6,4 +6,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /*shaftoli rang*/
 /*background color*/
+<<<<<<< HEAD
+/*text color*/
+#Objects {
+  padding-top: 51px;
+  font-family: "Montserrat";
+  background: #e5e5e5;
+}
+#Objects .objects__hero__link a {
+  font-weight: 400;
+  line-height: 15px;
+  color: #000000;
+  text-decoration: none;
+}
+#Objects .objects__hero__link a:nth-child(2) {
+  color: #898989;
+}
+#Objects .objects__hero__title {
+  padding-top: 63px;
+  padding-bottom: 80px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 141.69%;
+  color: #2d2d2d;
+}
+#Objects .card {
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+#Objects .card .card-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 142.19%;
+  color: #2d2d2d;
+}
+#Objects .btn {
+  width: 219px;
+  height: 50px;
+  left: 690px;
+  top: 2405px;
+  border: 1px solid #fcb427;
+}
+#Objects .btn a {
+  text-decoration: none;
+  color: black;
+}
+#Objects .btn .btn:hover {
+  background-color: #fcb427;
+}
+#Objects .objects__subtitle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 141.69%;
+  /* identical to box height, or 57px */
+  color: #000000;
+}
+#Objects .objects__last__title {
+  padding-bottom: 120px;
+}/*# sourceMappingURL=object.css.map */
+=======
 /*text color*//*# sourceMappingURL=object.css.map */
+>>>>>>> 4c75238730b8850fdb1dd2c3c3b92d6f7e4d9301

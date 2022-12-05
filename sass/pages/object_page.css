@@ -6,4 +6,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /*shaftoli rang*/
 /*background color*/
+<<<<<<< HEAD
+/*text color*/
+#objects__page {
+  padding-top: 36px;
+  font-family: "Montserrat";
+  background: #e5e5e5;
+}
+#objects__page .objects__page__hero .objects__page__hero__link a {
+  font-weight: 400;
+  line-height: 15px;
+  color: #000000;
+  text-decoration: none;
+}
+#objects__page .objects__page__hero .objects__page__hero__link a:nth-child(2) {
+  color: #898989;
+}
+#objects__page .objects__page__hero__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 141.69%;
+  color: #000000;
+}
+#objects__page .objects__page__subtitle {
+  padding-top: 120px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 141.69%;
+  color: #2d2d2d;
+}
+#objects__page .objects__page__subtitle__second {
+  padding-top: 120px;
+  padding-bottom: 75px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 141.69%;
+  color: #2d2d2d;
+}/*# sourceMappingURL=object_page.css.map */
+=======
 /*text color*//*# sourceMappingURL=object_page.css.map */
+>>>>>>> 4c75238730b8850fdb1dd2c3c3b92d6f7e4d9301
