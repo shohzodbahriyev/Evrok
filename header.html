@@ -1,167 +1,156 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header><nav class="d-none navbar navbar-secendary d-lg-flex align-items-center">
-      <div class="container d-flex">
-        <div class="logo d-flex">
-          <img src="./images/header/header-logo.svg" alt="" />
-          <div class="logo-text d-flex justify-content-center">
-            <p class="m-0 text-light ms-2 head-text">
-              Аренда спецтехники <br />
-              LIEBHERR c 2000 года
-            </p>
-          </div>
-        </div>
-        <div class="work-time d-flex align-items-center">
-          <i class="fa-regular fa-clock"></i>
-          <p class="m-0 ms-2 head-text">10:00 - 17:00</p>
-        </div>
-        <div class="location d-flex align-items-center">
-          <i class="fa-solid fa-location-dot"></i>
-          <p class="m-0 ms-2 head-text">
-            г. Москва, <br />
-            ул. Куликовская, 12
-          </p>
-        </div>
-        <a class="btn btn-header" href="#">Свяжитесь со мной</a>
-        <div class="contact d-flex align-items-center">
-          <i class="fa-solid fa-phone"></i>
-          <p class="m-0 ms-2 head-text">
-            +7 (499)929-96-66 <br />
-            +7 (985)364-55-18 <br />
-            +7 (985)226-20-30
-          </p>
-        </div>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap"
+  rel="stylesheet"
+/>
+<nav class=" navbar navbar-secendary align-items-center">
+  <div class="container d-flex">
+    <div class="logo d-flex flex-grow-1 flex-sm-grow-0 justify-content-evenly">
+      <img src="./images/header/header-logo.svg" alt="" />
+      <div class="logo-text d-flex justify-content-center">
+        <p class="d-flex align-items-center m-0 text-light ms-2 head-text">
+          Аренда спецтехники <br />
+          LIEBHERR c 2000 года
+        </p>
       </div>
-    </nav>
-
-    <nav class="navbar navbar-expand-lg main-nav p-lg-0 position-sticky top-0">
-      <div class="container d-flex align-items-center">
-        <div class="phone-head">
-          <button
-            class="navbar-toggler navbar-toggler-cus btn btn-light"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-        <div
-          class="offcanvas offcanvas-start"
-          tabindex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
+    </div>
+    <div class="d-none work-time d-lg-flex align-items-center">
+      <i class="fa-regular fa-clock"></i>
+      <p class="m-0 ms-2 head-text">10:00 - 17:00</p>
+    </div>
+    <div class="d-none location d-lg-flex align-items-center">
+      <i class="fa-solid fa-location-dot"></i>
+      <p class="m-0 ms-2 head-text">
+        г. Москва, <br />
+        ул. Куликовская, 12
+      </p>
+    </div>
+    <a class="d-none d-lg-block btn btn-header" href="#">Свяжитесь со мной</a>
+    <div class="py-3 contact d-flex justify-content-center align-items-center flex-grow-1 flex-sm-grow-0">
+      <i class="fa-solid fa-phone"></i>
+      <p class="m-0 ms-2 head-text">
+        +7 (499)929-96-66 <br />
+        +7 (985)364-55-18 <br />
+        +7 (985)226-20-30
+      </p>
+    </div>
+  </div>
+</nav>
+<header id="header">
+  <nav class="navbar navbar-expand-lg main-nav p-lg-0 position-sticky top-0">
+    <div class="container d-flex align-items-center">
+      <div class="phone-head">
+        <button
+          class="navbar-toggler navbar-toggler-cus btn btn-light"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
         >
-          <div class="offcanvas-header logo">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              <img class="" src="./images/header/header-logo-grey.svg" alt="" />
-            </h5>
-            <button
-              type="button"
-              class="btn-close btn-close-cus"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+      >
+        <div class="offcanvas-header logo">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            <img class="" src="./images/header/header-logo-grey.svg" alt="" />
+          </h5>
+          <button
+            type="button"
+            class="btn-close btn-close-cus"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
 
-          <div class="offcanvas-body">
-            <ul class="navbar-nav d-flex flex-grow-1 pe-0 pe-lg-3 mt-2 mt-lg-0">
-              <li class="d-flex align-items-center nav-item">
-                <a
-                  class="my-1 m-lg-0 p-2 header-link-hover nav-link-cus py-lg-3 nav-link "
-                  href="./index.html"
-                >
-                  Каталог
-                </a>
-              </li>
-              <li class="d-flex align-items-center nav-item">
-                <a
-                  class="my-1 m-lg-0 p-2 header-link-hover nav-link-cus py-lg-3 nav-link "
-                  href="/index.html"
-                >
-                  Услуги
-                </a>
-              </li>
-              <li class="d-flex align-items-center nav-item">
-                <a
-                  class="my-1 m-lg-0 p-2 header-link-hover nav-link-cus py-lg-3 nav-link "
-                  href="#"
-                  >О компании</a
-                >
-              </li>
-              <li class="d-flex align-items-center nav-item">
-                <a
-                  class="my-1 m-lg-0 p-2 header-link-hover nav-link-cus py-lg-3 nav-link "
-                  href="#"
-                  >Объекты</a
-                >
-              </li>
-              <li class="d-flex align-items-center nav-item">
-                <a
-                  class="my-1 m-lg-0 p-2 header-link-hover nav-link-cus py-lg-3 nav-link "
-                  href="#"
-                  >Цены</a
-                >
-              </li>
-              <li class="d-flex align-items-center nav-item">
-                <a
-                  class="my-1 m-lg-0 p-2 header-link-hover nav-link-cus py-lg-3 nav-link "
-                  href="#"
-                  >Блог</a
-                >
-              </li>
-              <li class="d-flex align-items-center nav-item">
-                <a
-                  class="my-1 m-lg-0 p-2 header-link-hover nav-link-cus py-lg-3 nav-link"
-                  href="#"
-                  >Контакты</a
-                >
-              </li>
-            </ul>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav d-flex flex-grow-1 pe-0 pe-lg-3 mt-2 mt-lg-0">
+            <li class=" d-flex align-items-center nav-item">
+              <a
+                class="w-100 p-2 header-link-hover nav-link-cus py-lg-3 nav-link"
+                href="catalog.html"
+              >
+                Каталог
+              </a>
+            </li>
+            <li class=" d-flex align-items-center nav-item">
+              <a
+                class="w-100 p-2 header-link-hover nav-link-cus py-lg-3 nav-link"
+                href="/index.html"
+              >
+                Услуги
+              </a>
+            </li>
+            <li class=" d-flex align-items-center nav-item">
+              <a
+                class="w-100 p-2 header-link-hover nav-link-cus py-lg-3 nav-link"
+                href="about.html"
+                >О компании</a
+              >
+            </li>
+            <li class=" d-flex align-items-center nav-item">
+              <a
+                class="w-100 p-2 header-link-hover nav-link-cus py-lg-3 nav-link"
+                href="object.html"
+                >Объекты</a
+              >
+            </li>
+            <li class=" d-flex align-items-center nav-item">
+              <a
+                class="w-100 p-2 header-link-hover nav-link-cus py-lg-3 nav-link"
+                href="#"
+                >Цены</a
+              >
+            </li>
+            <li class=" d-flex align-items-center nav-item">
+              <a
+                class="w-100 p-2 header-link-hover nav-link-cus py-lg-3 nav-link"
+                href="blog.html"
+                >Блог</a
+              >
+            </li>
+            <li class=" d-flex align-items-center nav-item">
+              <a
+                class="w-100 p-2 header-link-hover nav-link-cus py-lg-3 nav-link"
+                href="contact.html"
+                >Контакты</a
+              >
+            </li>
+          </ul>
 
-            <div class="search-bar d-flex align-items-center mt-2">
-              <div class="search-panel">
-                <input type="search" />
-                <i class="fa fa-search"></i>
-              </div>
+          <div class="search-bar d-flex align-items-center mt-2 mt-lg-0">
+            <div class="search-panel">
+              <input type="search" />
+              <i class="fa fa-search"></i>
             </div>
           </div>
         </div>
-        <a class="logo d-lg-none" href="index.html">
-          <img src="./images/header/header-logo-grey.svg" alt="" />
-        </a>
       </div>
-    </nav></header>
- \
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/header.js"></script>
-  </body>
-</html>
+
+      <div class="d-lg-none search-bar d-flex align-items-center mt-2 mt-lg-0">
+        <div class="search-panel">
+          <input type="search" />
+          <i class="fa fa-search"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<script src="./js/bootstrap.bundle.min.js"></script>
