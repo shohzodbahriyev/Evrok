@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /*shaftoli rang*/
 /*background color*/
+<<<<<<< HEAD
 /*text color*/
 #Objects {
   padding-top: 51px;
@@ -63,3 +64,6 @@
 #Objects .objects__last__title {
   padding-bottom: 120px;
 }/*# sourceMappingURL=object.css.map */
+=======
+/*text color*//*# sourceMappingURL=object.css.map */
+>>>>>>> 4c75238730b8850fdb1dd2c3c3b92d6f7e4d9301
