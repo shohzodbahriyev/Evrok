@@ -81,7 +81,7 @@ main .sec-2 .col-lg-4 .card .btn:active {
   color: #E5E5E5;
 }
 main .sec-2 .col-lg-4 .card:hover {
-  box-shadow: 10% 10% 10% 10% rgb(239, 12, 12);
+  box-shadow: 0px 0px 20px 10px #FCB427;
 }
 main .sec-2 .btn-bottom {
   width: 220px;
