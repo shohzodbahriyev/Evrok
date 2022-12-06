@@ -1,5 +1,7 @@
-@import url("../_global.scss");
-
+#header {
+  position: sticky;
+  top: 0;
+}
 .btn-header {
   border-color: #fcd127;
   color: #fff;
@@ -20,6 +22,10 @@
     color: #fcd127;
     font-size: 20px;
   }
+}
+.nav-link-cus {
+  font-weight: 500;
+  color: #000;
 }
 .btn-close-cus {
   border-radius: 0;
@@ -50,7 +56,6 @@
   }
 }
 .main-nav {
-  position: fixed;
   background-color: #f3f3f3;
 }
 
@@ -65,9 +70,10 @@
 
 .search-bar input {
   padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
   background-color: transparent;
   border: thin solid #999;
- 
   height: 30px;
   border: none;
   width: 100%;
@@ -77,15 +83,24 @@
   outline: none;
   border-color: #fcd127;
 }
+
 .search-panel {
   width: 100%;
   i {
+    color: #2d2d2d99;
     margin: auto 10px;
   }
   display: flex;
   flex-direction: row;
-  border: 1px solid #2d2d2d99;
+  border: 1px solid #64646499;
 }
 .header-link-hover:hover {
-  background-color: #8b8b8b;
+  color: #fff;
+  background-color: #2d2d2d;
+}
+@media screen and (min-width: 992px) {
+  .search-panel {
+    width: 20vw;
+  }
+
 }
