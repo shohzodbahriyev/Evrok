@@ -7,6 +7,7 @@
 /*shaftoli rang*/
 /*background color*/
 /*text color*/
+<<<<<<< HEAD
 @import url("../_global.scss");
 .btn-header {
   border-color: #fcd127;
@@ -100,4 +101,141 @@
 
 .header-link-hover:hover {
   background-color: #8b8b8b;
+=======
+main {
+  background: #F3F3F3;
+}
+main .sec-1 {
+  padding-top: 60px;
+}
+main .sec-1 div p {
+  padding-bottom: 60px;
+}
+main .sec-1 div p a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #2D2D2D;
+}
+main .sec-1 div p a:hover {
+  color: blue;
+}
+main .sec-1 div h1 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 141.69%;
+  color: #2D2D2D;
+  padding-bottom: 30px;
+}
+main .sec-1 div h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 156.69%;
+  color: #2D2D2D;
+}
+main .sec-2 {
+  padding-bottom: 50px;
+}
+main .sec-2 img {
+  padding-bottom: 50px;
+}
+main .sec-2 h1 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 141.69%;
+  color: #2D2D2D;
+  padding-bottom: 40px;
+}
+main .sec-2 p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 156.69%;
+  color: #2D2D2D;
+}
+main .sec-3 {
+  padding-bottom: 150px;
+}
+main .sec-3 h1 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 141.69%;
+  color: #2D2D2D;
+  padding-bottom: 40px;
+}
+main .sec-3 p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 156.69%;
+  color: #2D2D2D;
+}
+main .sec-4 {
+  padding-bottom: 100px;
+}
+main .sec-4 .sec4-top h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 142.19%;
+  color: #2D2D2D;
+  padding-bottom: 90px;
+}
+main .sec-4 .row .owl-nav button {
+  font-size: 60px;
+  width: 100px;
+}
+main .sec-4 .row .owl-nav button:active {
+  background-color: #FCB427;
+}
+main .sec-4 .row .owl-dots button {
+  display: none;
+}
+main .sec-4 .row h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 142.19%;
+  color: #2d2d2d;
+  padding: 20px 30px;
+}
+main .sec-4 .row p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 156.69%;
+  color: #2D2D2D;
+  padding: 0px 30px;
+}
+main .sec-4 .row button {
+  margin: 20px 30px;
+  padding: 14px 60px;
+  border: 1px solid #FCB427;
+  background-color: #FCB427;
+}
+main .sec-4 .row button:hover {
+  background-color: #F3F3F3;
+}
+main .sec-4 .row button:active {
+  background-color: #2D2D2D;
+  color: #F3F3F3;
+}
+main .sec-5 {
+  padding-bottom: 50px;
+>>>>>>> 2a6aa704fd04011160029fc34564465dfb44be3e
 }/*# sourceMappingURL=blog_page.css.map */
