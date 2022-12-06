@@ -7,7 +7,12 @@
 /*shaftoli rang*/
 /*background color*/
 /*text color*/
-@import url("../_global.scss");
+#header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 .btn-header {
   border-color: #fcd127;
   color: #fff;
@@ -30,6 +35,11 @@
 .navbar-secendary i {
   color: #fcd127;
   font-size: 20px;
+}
+
+.nav-link-cus {
+  font-weight: 500;
+  color: #000;
 }
 
 .btn-close-cus {
@@ -61,7 +71,6 @@
 }
 
 .main-nav {
-  position: fixed;
   background-color: #f3f3f3;
 }
 
@@ -76,6 +85,8 @@
 
 .search-bar input {
   padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
   background-color: transparent;
   border: thin solid #999;
   height: 30px;
@@ -92,12 +103,76 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  border: 1px solid rgba(45, 45, 45, 0.6);
+  border: 1px solid rgba(100, 100, 100, 0.6);
 }
 .search-panel i {
+  color: rgba(45, 45, 45, 0.6);
   margin: auto 10px;
 }
 
 .header-link-hover:hover {
-  background-color: #8b8b8b;
+  color: #fff;
+  background-color: #2d2d2d;
+}
+
+@media screen and (min-width: 992px) {
+  .search-panel {
+    width: 20vw;
+  }
+}
+#Objects {
+  padding-top: 51px;
+  font-family: "Montserrat";
+  background: #e5e5e5;
+}
+#Objects .objects__hero__link a {
+  font-weight: 400;
+  line-height: 15px;
+  color: #000000;
+  text-decoration: none;
+}
+#Objects .objects__hero__link a:nth-child(2) {
+  color: #898989;
+}
+#Objects .objects__hero__title {
+  padding-top: 63px;
+  padding-bottom: 80px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 141.69%;
+  color: #2d2d2d;
+}
+#Objects .card {
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+#Objects .card .card-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 142.19%;
+  color: #2d2d2d;
+}
+#Objects .btn {
+  width: 219px;
+  height: 50px;
+  left: 690px;
+  top: 2405px;
+  border: 1px solid #fcb427;
+}
+#Objects .btn a {
+  text-decoration: none;
+  color: black;
+}
+#Objects .btn .btn:hover {
+  background-color: #fcb427;
+}
+#Objects .objects__subtitle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 141.69%;
+  /* identical to box height, or 57px */
+  color: #000000;
+}
+#Objects .objects__last__title {
+  padding-bottom: 120px;
 }/*# sourceMappingURL=object.css.map */
