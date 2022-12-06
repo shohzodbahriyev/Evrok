@@ -6,4 +6,184 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /*shaftoli rang*/
 /*background color*/
-/*text color*//*# sourceMappingURL=blog.css.map */
+/*text color*/
+@import url("../_global.scss");
+.btn-header {
+  border-color: #fcd127;
+  color: #fff;
+  border-radius: 0;
+  font-family: "PT Sans", sans-serif;
+}
+.btn-header:hover {
+  background-color: #fcd127;
+}
+
+.head-text {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-secendary {
+  background: #2d2d2d;
+  color: #fff;
+}
+.navbar-secendary i {
+  color: #fcd127;
+  font-size: 20px;
+}
+
+.btn-close-cus {
+  border-radius: 0;
+}
+.btn-close-cus:hover {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.75;
+  background-color: red;
+}
+.btn-close-cus:focus {
+  outline: 0;
+  background-color: red;
+  box-shadow: none;
+  opacity: 1;
+}
+
+.navbar-toggler-cus {
+  border-radius: 0;
+  padding: 0;
+  font-size: 20px;
+  border: none;
+}
+.navbar-toggler-cus:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.main-nav {
+  position: fixed;
+  background-color: #f3f3f3;
+}
+
+.search-bar .fa-search {
+  color: #999;
+  margin-left: 0.33em;
+}
+
+.search-bar:focus-within .fa-search {
+  display: none;
+}
+
+.search-bar input {
+  padding: 10px;
+  background-color: transparent;
+  border: thin solid #999;
+  height: 30px;
+  border: none;
+  width: 100%;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #fcd127;
+}
+
+.search-panel {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgba(45, 45, 45, 0.6);
+}
+.search-panel i {
+  margin: auto 10px;
+}
+
+.header-link-hover:hover {
+  background-color: #8b8b8b;
+}
+
+main {
+  background: #E5E5E5;
+}
+main .sec-1 {
+  padding-top: 60px;
+}
+main .sec-1 div p {
+  padding-bottom: 60px;
+}
+main .sec-1 div p a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #2D2D2D;
+}
+main .sec-1 div p a:hover {
+  color: blue;
+}
+main .sec-1 div h1 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 141.69%;
+  color: #2D2D2D;
+  padding-bottom: 60px;
+}
+main .sec-2 {
+  padding-bottom: 100px;
+}
+main .sec-2 .col-lg-4 {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .sec-2 .col-lg-4 .card {
+  border-radius: 0%;
+}
+main .sec-2 .col-lg-4 .card .card-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 142.19%;
+  color: #2D2D2D;
+}
+main .sec-2 .col-lg-4 .card .card-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 156.69%;
+  color: #2D2D2D;
+}
+main .sec-2 .col-lg-4 .card .btn {
+  border-radius: 0%;
+  background: #FCB427;
+  border: none;
+  padding: 12px 62px;
+}
+main .sec-2 .col-lg-4 .card .btn:hover {
+  background-color: #E5E5E5;
+  color: #000000;
+}
+main .sec-2 .col-lg-4 .card .btn:active {
+  background-color: #2D2D2D;
+  color: #E5E5E5;
+}
+main .sec-2 .col-lg-4 .card:hover {
+  box-shadow: 10% 10% 10% 10% rgb(239, 12, 12);
+}
+main .sec-2 .btn-bottom {
+  width: 220px;
+  height: 50px;
+  border-radius: 0%;
+  margin: 0 auto;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 141.69%;
+  color: #2D2D2D;
+}/*# sourceMappingURL=blog.css.map */
